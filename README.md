@@ -92,7 +92,7 @@ fi
 
 **7.如果framework里需要依赖其他第三方库，推荐使用cocoapods方式引入，方法和正常开发项目一样**
 
-注意事项： 如本次项目引入第三方**cocoaAsyncSocket** OC库依赖，无需引入Bridge桥接文件
+注意事项： 如本次项目引入第三方**cocoaAsyncSocket** OC库依赖，无需引入Bridge桥接文件，只需要在头文件中引入即可
 
 ![15](./readme/15.png)
 
